@@ -20,7 +20,7 @@ To create your first presentation using Preston, first, you need to clone the co
 from github:
 
     git clone https://github.com/airportyh/Preston
-    
+
 Then edit `presentation.md` to start writing the presentation.
 
 To run the presentation, open `index.html`, and press the "Start Presentation" button.
@@ -35,14 +35,14 @@ and used it to denote notes for a slide.
 ### Example
 
     Slide 1
-    
+
         (these are the notes) Hello, this is slide 1 where I will
         talk about topic one for about 10 seconds.
-        
+
     Slide 2
-    
+
         Now I will talk about slide 2 for a few seconds as well.
-        
+
 Here we have two slides. The first slide will consist of the text "Slide 1" and the second
 "Slide 2". The indented text below each of them are the notes for that slide, which
 will be on your second screen and invisible to the audience during the presentation.

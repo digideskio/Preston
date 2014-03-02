@@ -76,11 +76,11 @@ function runSlides(slides){
     $('#prevBtn').click(prevSlide)
     $('#nextBtn').click(nextSlide)
     index = -1
-    win = window.open('slide.html', 'slides', 
-            'width=' + window.outerWidth + ',height=' + 
+    win = window.open('slide.html', 'slides',
+            'width=' + window.outerWidth + ',height=' +
             window.outerHeight)
     win.moveTo(0, 0)
-    
+
     setTimeout(function(){
         win.nextSlide = nextSlide
         win.prevSlide = prevSlide

@@ -32,10 +32,10 @@ function fit(){
 		}, 0)
 	  , maxSize = !!$('#content .maxsize').length
 	var fontSize = Math.min(
-		maxSize ? Number.POSITIVE_INFINITY : window.innerWidth / 10, 
-		1.5 * window.innerWidth / 
-			longestLineLength, 
-		0.5 * window.innerHeight / 
+		maxSize ? Number.POSITIVE_INFINITY : window.innerWidth / 10,
+		1.5 * window.innerWidth /
+			longestLineLength,
+		0.5 * window.innerHeight /
 			lines.length)
 	$('#content').css({'font-size': fontSize + 'px'})
 }
