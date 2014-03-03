@@ -1,3 +1,5 @@
+This project has been deprecated, https://github.com/hakimel/reveal.js good alternative.
+
 Preston
 =======
 
